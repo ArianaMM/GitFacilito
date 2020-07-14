@@ -1,31 +1,179 @@
 <!DOCTYPE html>
 <html>
     <head>
-    
         <meta charset="utf-8">
-        <meta name="keywords" content="AngujarJs,ejemplo,5">
-        <title>Pagina con Angular</title>
-        <script src="vendor/jquery/jquery-3.1.1.js"></script>
-        <script src="vendor/bootstrap-3.4.1-dist/js/bootstrap.js"></script>
-        <script src="vendor/angularjs/angular.min.js"></script>
-        <script src="vendor/angularjs/angular-route.js"></script>
-        <link href="vendor/bootstrap-3.4.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+        
+        <!--<tittle>Pasteleria Dulce Vida</tittle>-->
+        
+        <!-- SLIDER -->        
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+        
+        <!-- ESTILOS -->
+        <link rel="stylesheet" href="css/style.css">
+        
     </head>
-    <body ng-app="miPaginaApp">
-        <nav class="navbar navbar-inverse">
-            <ul class="nav nav-pills">
-            <li><a href="#!/">Inicio</a></li>
-            <li><a href="#!/info">Información</a></li>
-            <li><a href="#!/clientes">Clientes</a></li>
-            <li> <a href="#!/contacto">Contacto</a></li> 
-            <li> <a href="#!/animacion">Animacion</a></li> 
-           <li> <a href="#!/tipodeletra">Tipo de Letra</a></li> 
-            </ul>
-        </nav>
-        <div ng-view>
+    <body>
         
-        
+        <!-- CODIGO DEL CONTENIDO -->
+        <div id="wrapper">
+            
+            <!-- BANNER -->
+            <div class="banner-wrapper">
+                <header>
+                   <div  class="header-inner">
+                       
+                       <a href="index.html" id="logo">
+                       <img src="images/logos/Logo6.png" alt="Logo de Pasteleria dulce vida">   <!-- LOGOTIPO-->
+                        
+                       </a>
+
+                       
+                       <!-- AJUSTAR A LA PANTALLA(SI ES MUY PEQUEÑA) -->
+                       <nav>
+                           <a href="#" id="menu-icon">
+                               <i class="fa fa-bars"></i>  <!--ICONO DE BARRA -->
+                           </a>
+                           <ul>                             <!--LISTA DESORDENADA-->
+                               
+                                     
+                               
+                           </ul>
+                       </nav>
+                       
+                    </div>
+                </header>
+                
+                <!--LISTA PARA EL SLIDER-->
+                <div class="slide-wrap">
+                    <ul class="slider1">   <!--NOMBRE SLIDER1 -->
+                        
+                                                        <!-- LISTA DESORDENADA DE IMAGENES-->
+                        <li><img src="images/sliders/slider.png"></li>
+                        <li><img src="images/sliders/slider1.png"></li>  <!--IMAGENES DEL SLIDER-->
+                        <li><img src="images/sliders/slider2.png"></li>
+                    </ul>
+                </div>
+                
+            </div>
+            
         </div>
-        <script src="js/app.js"></script>
+        
+        <!--NOSOTROS-->
+        <section class="one-two" id="nosotros">
+            <h3>Sobre Nosotros</h3>
+            <p>Pasteleria Dulce Vida "La mejor del mundo": 
+                Nuestra empresa consiste en la elaboración y ventas de pasteles:
+                Está conformada por un grupo de personas con un solo objetivo… hacer cosas deliciosas.
+                Cada día nos esforzamos por hacer productos caseros y de gran calidad, los cuales hacen la diferencia que nuestros clientes     prefieran a nuestros pasteles. Ofrecemos calidad y cariño en cada producto que elaboramos, trabajamos siempre unidos para darle el mejor servicio a usted y a toda su familia.
+            </p>
+        </section>
+        
+        <section class="one-two" id="nosotros">
+            <img src="images/nosotros2.png">
+            <br><br>
+        </section>
+        
+        
+        <!--MENU-->
+        <section class="one-two2" id="menu">
+            <img src="images/menu/menu.png">
+        </section>
+        
+        <section class="one-two2" id="menu">
+            <h3>Menu</h3>
+            <p>Contamos con una gran amplia variedad de manjares para satisfacer las necesidades de nuestros clientes, desde pasteles de todo tipo, gelatinas, galletas, pays, flanes, roscas, muffins cupcakes, brownies y muchos mas productos.</p>
+            
+            <button class="bt">VER MENU COMPLETO</button>
+            <br><br><br><br><br><br>
+        </section>
+    
+        
+        <!--GALERIA-->
+        
+        <section class="one-two3" id="galeria">
+            <h3>Galeria</h3>
+            <p>Deleitate con nuestra amplia galeria de productos</p>
+            
+            <button class="bt">VER GALERIA COMPLETA</button>
+        </section>
+        
+        <section class="one-two3" id="galeria">
+            <img src="images/galeria/galeria.png">
+        </section>
+        
+        <!--CONTACTO-->
+        
+        <section class="one-two3" id="contacto">
+            <img src="images/Contacto.png">
+        </section>
+        
+        <section class="one-two4" id="contacto">
+            <h3>Contacto</h3>
+            <p>Contactanos por nuestras redes sociales.<br><br>
+            - Realiza tus pedidos a domicilio.<br>
+            - Consultar las facturas de las compras que hayas hecho<br>
+            - Forma parte de nuestro equipo.<br>
+            </p>
+            <img src="images/iconos/facebook.png" class="btredessociales">
+            <img src="images/iconos/instagram.png" class="btredessociales">
+            <img src="images/iconos/twitter.png" class="btredessociales">
+            
+            <br><br><br><br><br><br><br><br>
+        </section>
+        
+         <!--SUCURSALES-->
+        
+        <section class="one" id="sucursal">
+            <h3>sucursales</h3>
+            <img src="images/Sucursal.png" class="imgsucursal">
+            <br>
+        </section>
+        
+        <section class="one" id="sucursales">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4280.697306403297!2d-103.5387413337665!3d25.550931283900617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fd87de173db69%3A0x87065b2a1a823d00!2sInstituto%20Tecnol%C3%B3gico%20Superior%20de%20Lerdo!5e0!3m2!1ses!2smx!4v1567379463447!5m2!1ses!2smx" width="1200" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            
+            <button class="bt">IR A GOOGLE MAPS</button>
+            
+        </section>
+        
+        
+        <footer>
+
+                    
+                    <div class="icon-text-text">
+                        <ul>
+                            
+                            <li>
+                              
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+        
+        
+        <footer class="second-footer">
+            <p>
+                &copy; <a href="#" target="_blank">Pasteleria Dulce Vida</a>
+            </p>
+        </footer>
+        
+        <!-- SCRIPTS --->
+        
+        <!-- SCRIPT DEL SLIDER1-->
+         <script>                           
+          $(document).ready(function(){
+            $('.slider1').bxSlider({
+             mode: 'fade'                   
+            });
+          });   
+         </script>
+        
     </body>
 </html>

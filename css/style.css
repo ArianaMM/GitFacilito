@@ -1,0 +1,169 @@
+* {
+    margin:0;   /* margen */
+    padding: 0; /* relleno */
+    border:0;   /* borde */
+}
+
+/*Cuerpo*/
+body{
+    /* Fondo */
+    /*background-image: url(/images/fondo3.png);*/
+    background-image: url(/images/fondos/fondo5.png);
+}
+
+
+/*Parrafos*/
+p{
+    color: #524c56;     /*color del texto*/
+    font-size: 160%;    /* tamaño de fuente */
+    line-height: 155%;  /* separado de interlineado  */
+    padding: 3%;
+    text-align: justify;    /* texto justificado */
+}
+
+/* H3 */
+h3{
+    font-size: 175%;    /* tamaño */
+    line-height: 155%;   /* separado de interlineado  */
+    font-weight: 500;
+    color:  #524c56;    /*color del texto*/
+    text-align: center; /*Centrado*/
+    text-transform: uppercase;  /*transformar el texto mayuscula*/
+    padding: 0;
+}
+
+/* a */
+a{
+    color: #524c56; /*Color*/
+    text-decoration: none; /*Quitar el subrayado*/
+    font-weight: bold; /* Negritas */
+}
+
+a:hover{
+    color:aqua; /*Color cuando se situa el mouse*/
+}
+
+/* imagenes */
+img{
+    display: block;         /*mostrar como bloque*/
+    margin:0 auto;      /*margen centrado*/
+    max-width: 100%;    /*maximo windth*/
+    height: auto;       /*centrado verticalmente*/
+    width:  auto;   /* centrado horizontalmente*/
+    margin-bottom: -4px;   /*  margen */
+}
+
+/*wrapper*/
+#wrapper{
+    max-width: 1200px;  /*abarca un texto centrado*/
+    margin: 0 auto;     /*pequeño margen y centrado*/
+}
+
+/*wrapper*/
+#banner-wrapper{ 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 0 3% 0;  /*arriba, derecha, abajo, izquierda*/
+}
+
+/*header*/
+header{
+    width: 100%;   /*cabezera*/
+    height: 100px;
+    top: 0;
+    left:0;
+}
+
+header #logo img{   /*logo de cabezera*/
+    margin: 20px;    /*margen*/
+    float: left;   /*flota a la izquierda*/
+    width: 170px;    /*reducir tamaño*/  /*opcional*/
+    height: 80px;
+}
+
+/*NAVEGACION*/
+nav{
+    float: right;
+    padding: 25px 20 0 0;
+}
+
+/*Icono cuando es en movil*/
+#menu-icon{ /*Menu font awesome*/
+    display:none;   /*oculto*/
+    font font-size: 50px;   /*tamaño de icono cuando sea en movil*/
+}
+
+/*enlaces de navegacion del ul*/
+ul{
+    list-style: none;   /*Quitarle los puntos al menu de enlaces de navegacion*/
+}
+
+
+nav ul li{ /*Enlaces no seleccionados del menu de navegacion*/
+    font-size: 150%;   /* tamaño*/
+    display: inline-block;  /*mostrar en linea horizontal*/
+    float: left;    /*flotar a la izquierda*/
+    padding: 10px;  /*separacion entre enlaces en el menu de navegacion*/
+}
+
+/*Modificar todos los li dentro de ul*/
+nav ul li a{
+    color: #6991ac; /*Color de los enlaces de navegacion*/
+}
+
+/*Clase current del menu de navegacion*/
+.current{
+    color: #3f5767; /*color del elemento selecionado del menu de navegacion*/
+}
+
+/*Clase one-two*/
+.one-two{ /*los 2 parrafos en linea*/
+    width: 48%;   /*margen para que se pongan 2 parrafos en una linea*/
+    float: left;    /*flota a la izquierda*/
+    padding: 10px;  
+    text-align: center; /*alineado al centro*/
+}
+
+/*Clase one-two2*/
+.one-two2{ /*los 2 parrafos en linea*/
+    width: 48%;   /*margen para que se pongan 2 parrafos en una linea*/
+    float: left;    /*flota a la izquierda*/
+    padding: 10px;  
+    text-align: center; /*alineado al centro*/
+}
+
+/*Clase one-two3*/
+.one-two3{ /*los 2 parrafos en linea*/
+    width: 48%;   /*margen para que se pongan 2 parrafos en una linea*/
+    float: left;    /*flota a la izquierda*/
+    padding: 10px;  
+    text-align: center; /*alineado al centro*/
+}
+
+.bt{
+    background-color:magenta;
+    color:white;
+    font-size:1.2em;
+    padding:12px;
+    border: 2px solid #090909;
+}
+
+.btredessociales{
+    color:white;
+    font-size:1.2em;
+    padding:12px;
+    height: 50px;
+    float: left;
+}
+
+.imgsucursal{
+    width: 1200px;
+}
+
+.one{
+    text-align: center;
+}
+
+.icon-text{
+    width: 35%;
+}
