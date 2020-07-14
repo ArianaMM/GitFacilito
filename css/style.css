@@ -77,7 +77,7 @@ header{
 }
 
 header #logo img{   /*logo de cabezera*/
-    margin: 20px;    /*margen*/
+    margin: 17px;    /*margen*/
     float: left;   /*flota a la izquierda*/
     width: 170px;    /*reducir tamaño*/  /*opcional*/
     height: 80px;
